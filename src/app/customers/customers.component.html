@@ -1,0 +1,10 @@
+<p>customers works!</p>
+<ngx-sign-pdf [pdfUrl]="url" 
+[exportPdf]='exportPdf'
+ [exportSignatures]='exportSignatures'
+
+  (pdfBase64Url)='getPdfUrl($event)' 
+  (signaturesList)='getSignaturesList($event)' 
+  [peopleInvitationData]='peopleInvitationData'
+  [currentLoginUserEmail]='currentLoginUserEmail'
+  [signatureColors]="colorsList" ></ngx-sign-pdf>
