@@ -20,6 +20,12 @@
     "@angular/platform-browser-dynamic": "~11.0.5",
     "@angular/router": "~11.0.5",
     "rxjs": "~6.6.0",
+    "core-util-is": "^1.0.2",
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "random": "^2.2.0",
+    "simple-git": "^2.24.0",
+    "webpack-dev-server": "^3.11.0",
     "sign-pdf": "git+https://bot-user:3c7a5156ddac681d14107e0f5b8d8e4df1573a12@github.com/usman-insignia/sign-pdf.git",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
